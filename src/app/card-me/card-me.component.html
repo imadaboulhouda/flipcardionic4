@@ -1,0 +1,13 @@
+<div class="allCardImad">
+<div [class]="cardBlock">
+  <img [src]="backgroundImage" />
+  <div class="cardFront" (click)="showOther()">
+    <b>{{ titre }}</b>
+  </div>
+  <div [class]="className">
+    <div class="el el1" [innerHTML]="contentHtml">
+    </div>
+
+  </div>
+</div>
+</div>
